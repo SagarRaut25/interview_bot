@@ -1,0 +1,20 @@
+
+Interview Report for Anonymous
+Role: ""
+Experience Level: fresher
+Years of Experience: 0
+
+Interview Duration: 3m 14s
+Average Rating: 5.1/10
+Overall Performance: Low
+
+Conversation Transcript with Feedback:
+Q1: As a fresher, what motivated you to pursue a career in this field?
+Response: because I is  a  upcoming Technology
+Q2: Tell me about your education and how it has prepared you for this role.
+Response: I have done graduation in mechanical after that I speech to the data science I have done the Python and data science certification program in that I have done the medical insurance price prediction project
+Q3: Were there any projects or assignments that stood out to you and why?
+Response: yes there is a some projects which is the Bangalore prediction medical insurance price prediction in that I have useed machine learning algorithms and Python libraries for the data processing
+Q4: How do you think your educational background will help you contribute to our team?
+
+End of Report

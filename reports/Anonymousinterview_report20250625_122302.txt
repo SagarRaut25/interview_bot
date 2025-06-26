@@ -1,0 +1,20 @@
+
+Interview Report for Anonymous
+Role: ""
+Experience Level: fresher
+Years of Experience: 0
+
+Interview Duration: 3m 16s
+Average Rating: 4.3/10
+Overall Performance: Low
+
+Conversation Transcript with Feedback:
+Q1: Tell me about your understanding of natural language processing and its applications.
+Response: Natural Language Processing is used for text processing it is very important part  for the text extraction takes processing  which is used  for which may be used for sentiment analysis  also in mini AI based projects
+Q2: Can you explain the difference between rule-based and machine learning approaches in NLP?
+Response: sorry I don't know about the answer
+Q3: What are some common challenges or limitations you may encounter when working with NLP models and how might you address them?
+Response: extraction of  email from the resume so  challenge so we give the prom in the prompt of NLP model given the extraction logic vacancy prompt for the email extraction from the resume
+Q4: Can you provide an example of a mini AI-based project that utilizes sentiment analysis and explain how it could benefit from more advanced NLP techniques?
+
+End of Report

@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
     // Update question count display
     $('#numQuestions').on('input', function() {
@@ -14,7 +12,7 @@ $(document).ready(function() {
         $(this).prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Starting...');
         
         $.ajax({
-            url: '/start_interview',
+            url: '/interview/start_interview',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({
@@ -52,7 +50,7 @@ $(document).ready(function() {
         $('#submitAnswerBtn').prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Submitting...');
         
         $.ajax({
-            url: '/submit_answer',
+            url: '/interview/submit_answer',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({
@@ -106,7 +104,7 @@ $(document).ready(function() {
     // Generate report
     function generateReport() {
         $.ajax({
-            url: '/generate_report',
+            url: '/report/generate_report',
             type: 'POST',
             success: function(response) {
                 if (response.status === 'success') {
@@ -161,7 +159,7 @@ $(document).ready(function() {
     // Helper functions
     function getNextQuestion() {
         $.ajax({
-            url: '/get_question',
+            url: '/interview/get_question',
             type: 'GET',
             success: function(response) {
                 if (response.status === 'completed') {
@@ -192,21 +190,6 @@ $(document).ready(function() {
         $('#conversationContainer').append(messageHtml);
         $('#conversationContainer').scrollTop($('#conversationContainer')[0].scrollHeight);
     }
-
-    // function updateProgress(current, total) {
-    //     const percent = (current / total) * 100;
-    //     $('#progressBar').css('width', `${percent}%`).attr('aria-valuenow', percent);
-    //     $('#progressBar').text(`Question ${current} of ${total}`);
-    // }
-
-
-
-
-
-    
-
-
-
 
     function formatReportText(text) {
         return text.replace(/\n/g, '<br>')
